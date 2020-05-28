@@ -14,12 +14,17 @@ const nlu = new NaturalLanguageUnderstandingV1({
   url: watsonKey.url,
 });
 
-async function robot(content) {
+const state = require("./state");
+
+async function robot() {
+  const content = state.load();
   await fetchContentFromWikipidia(content);
   sanitizeContent(content);
   breakContentIntoSentences(content);
   limitMaximumSentences(content);
   await fetchKeywordsOfAllSentences(content);
+
+  state.save(content);
 
   async function fetchContentFromWikipidia(content) {
     const algorithmiaAuthenticated = algorithmia(algorithmiaApiKey);
