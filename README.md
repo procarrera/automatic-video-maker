@@ -5,7 +5,7 @@
 <br/><br/>
 <div id="header">
         <div align="center">
-            <img id="logo" alt="Next Level Week" src="https://user-images.githubusercontent.com/53456120/96463761-7149eb80-11fd-11eb-93e7-f2afcb1deefa.png" height="180px" />
+            <img id="logo" alt="Next Level Week" src="https://user-images.githubusercontent.com/53456120/96464513-490ebc80-11fe-11eb-8c25-b4fd84e3978c.png" height="280px" />
     </div>
     <br/> <br/>
     <div align="center">
