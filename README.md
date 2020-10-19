@@ -28,13 +28,11 @@ Open source project to make automated videos.
 <div id="stack">
        
 ## { Stack & Techs }
-
-<img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?&style=for-the-badge&logo=mongodb&logoColor=white"/>
-<img src="https://img.shields.io/badge/express.js%20-%23404d59.svg?&style=for-the-badge"/>
-<img src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
-<img src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white"/>
-<br/>
-<img src="https://img.shields.io/badge/RESPONSIVE-YES-brightgreen"/>
+- [x] API Algorithmia
+- [x] API IBM Watson
+- [x] Google Cloud Plataform
+- [x] API Custom Search Enginer
+- [x] API YouTube
 <br/>
 <img src="https://img.shields.io/badge/REST%20API-YES-brightgreen"/>
 
@@ -43,20 +41,45 @@ Open source project to make automated videos.
 <div id="demo">
         
 ## { Demo }
-LINK: <a id="link" href="https://share-me.now.sh"> https://share-me.now.sh </a>
-<img align="center" alt="Next Level Week" src="https://user-images.githubusercontent.com/53456120/96350280-90c10700-108b-11eb-8220-2171f7256af2.png" width="1000px"/>
+![ezgif-5-a906cfcd3fd1](https://user-images.githubusercontent.com/34013325/57246263-33f69b80-7013-11e9-97a1-2f84acf2a7fe.gif)
 </div>
 
 <div id="features">
         
 ## { Features }
-- [x] User Sing up
-- [x] MongoDB database
-- [x] Search field
-- [x] Sort by top results using Mongo Indexes
-- [x] NewsAPI integrated
-- [x] GitHub API integrated
-
+# tasks:
+- [x] Define search term
+- [x] Prefix definition
+- [x] Initialize text robot
+- [x] Initialize image robot
+- [ ] Initialize video robot
+- [ ] Initialize YouTube robot
+---
+- [x] **text robot:**
+  - [x] data structure
+  - [x] fetch content from Wikipedia
+  - [x] trim content received
+  - [x] separate in sentences
+  - [x] get interpretation from IBM Watson
+  - [x] add tags
+  - [x] save
+---
+- [ ] **image robot:**
+  - [x] load data structure
+  - [x] search for related images on Google Images
+  - [ ] download all images
+  - [x] save
+---
+- [ ] **video robot:**
+  - [ ] prepare and resize images
+  - [ ] create sentenced images
+  - [ ] create thumbnail
+  - [ ] render with After Effects
+---
+- [ ] **YouTube robot:**
+  - [ ] authentication with OAuth
+  - [ ] video upload
+  - [ ] thumbnail upload
 </div>
 
 <div id="contact">
