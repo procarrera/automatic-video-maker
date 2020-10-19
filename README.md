@@ -21,7 +21,7 @@
 <div id="about">
 
 ## { About }
-Open source project to make automated videos.
+Open source project to create automated videos based on your search terms.
 
 </div>
 
@@ -47,7 +47,6 @@ Open source project to make automated videos.
 <div id="features">
         
 ## { Features }
-# tasks:
 - [x] Define search term
 - [x] Prefix definition
 - [x] Initialize text robot
@@ -67,7 +66,7 @@ Open source project to make automated videos.
 - [ ] **image robot:**
   - [x] load data structure
   - [x] search for related images on Google Images
-  - [ ] download all images
+  - [x] download all images
   - [x] save
 ---
 - [ ] **video robot:**
