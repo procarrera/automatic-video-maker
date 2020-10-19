@@ -63,7 +63,7 @@ Open source project to create automated videos based on your search terms.
   - [x] add tags
   - [x] save
 ---
-- [ ] **image robot:**
+- [x] **image robot:**
   - [x] load data structure
   - [x] search for related images on Google Images
   - [x] download all images
